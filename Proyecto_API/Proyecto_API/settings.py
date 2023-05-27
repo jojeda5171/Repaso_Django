@@ -77,7 +77,8 @@ WSGI_APPLICATION = 'Proyecto_API.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'CURSO_DJANGO',
+        #'NAME': 'CURSO_DJANGO',
+        'NAME': 'Facturacion_test',
         'USER': 'postgres',
         'PASSWORD': 'jojeda5171',
         'HOST': 'localhost',  # Ejemplo: 'localhost'
